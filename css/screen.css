@@ -81,6 +81,7 @@ header div.hero h1 {
 section {
     padding: 0 30px;
 }
+section::after{ content: ''; display: block; clear: both;}
 
 
 
@@ -90,6 +91,7 @@ section.main {
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 0;
+    background-color: #ccc;
 }
 
 section.main aside {
