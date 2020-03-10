@@ -117,3 +117,20 @@ section.main aside h3 a:hover {
 section.main aside .content.trending { background-image: url(../graphics/icon_star.svg);}
 section.main aside .content.find-it { background-image: url(../graphics/icon_marker.svg);}
 section.main aside .content.tools { background-image: url(../graphics/icon_gear.svg);}
+
+/*Section Atmasphere */
+
+section.admosphera {
+    background-color: #cc6633;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+
+}
+
+section.admoshere article {
+    padding: 0 20px 0 515px;
+    background: url(../graphics/photo_lounge.jpg) no-repeat 0 5px;
+    min-height: 220px;
+
+}
