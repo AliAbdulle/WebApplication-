@@ -281,3 +281,53 @@ footer .content {display: inline;}
 footer a {margin-left: 30px; color: #777;}
 footer a:visited {color: #777;}
 footer a:hover {color: #000;}
+
+
+/* Media query */
+
+@media screen and (max-width: 1000px) {
+    h1 {font-size: 2.3em;}
+    /* Header */
+    header div.hero {left: 56%;}
+    header div.hero h1 {margin-bottom: 20px;}
+
+    /*section Atmosphere */
+    section.Atmosphera article {padding-left: 400px; background-size: 375px auto;}
+}
+
+@media screen and (max-width: 825px) {
+    h1{ font-size: 2.2px;}
+
+    /* Header */
+    header { height: 300px; background-image: url(../graphics/banner_825.jpg);}
+    header div.hero {top:120px; left: 48%;}
+
+    /* Section Atmosphere */
+    section.atmosphera article { padding-left: 325px; background-size: 300px;}
+
+    /* Section How-to */
+    section.how-to blockquote p.quote {font-size: 1.1em;line-height: 1.2em;}
+    section.how-to blockquote p.credit { font-size: 85em;} 
+}
+
+@media screen and (max-width: 760px) {
+    h1 { font-size: 1.8em;}
+    h2 { font-size: 1.4em;}
+    h3 { font-size: 1.1em;}
+    a.btn { font-size: 1em;}
+
+    /* Header */
+    header a.logo { width: 145px; height: 60px;}
+    header div.hero {top: 140px; left: 45%;}
+
+    /* section main */
+    section.main { margin: 10px; margin-bottom: 10px;}
+    section.main aside div.content { background-color: 55px 55px; padding-top: 60px;}
+
+    /*Section how-to */
+    section.how-to aside div.content img {width: 85%;}
+
+    /* Nav */
+    nav {padding-top: 80px;}
+    nav > ul { padding-left: 10px;}
+}
