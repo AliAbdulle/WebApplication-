@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i);
+
+@page {margin:  .5em;}
+
+body {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0; padding: 0;
+}
